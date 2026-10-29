@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T12:10:28Z",
+  "generated_at": "2026-10-29T22:22:02Z",
   "homepage": "https://www.tvbox.org/",
   "repo": "https://github.com/TVboxorg/TVbox",
   "primary": "王二小",
   "sites": 160,
-  "parses": 38,
-  "lives": 23,
+  "parses": 49,
+  "lives": 24,
   "sources": [
     {
       "id": "pref-001",
@@ -26,6 +26,16 @@
       "sites_added": 50,
       "sites_skipped": 4,
       "spider": "http://xhztv.top/xhz/Yoursmile.jar"
+    },
+    {
+      "id": "pref-006",
+      "name": "俊哥",
+      "group": "pref",
+      "url": "http://home.jundie.top:81/top98.json",
+      "primary": false,
+      "sites_added": 22,
+      "sites_skipped": 2,
+      "spider": "http://home.jundie.top:81/jar/top98_1.jar"
     },
     {
       "id": "back-023",
@@ -68,6 +78,26 @@
       "spider": "https://qist.wyfc.qzz.io/jar/fan.txt"
     },
     {
+      "id": "back-026",
+      "name": "1号VIP源",
+      "group": "back",
+      "url": "https://700sjro44343.vicp.fun/vip/vip/tv.json",
+      "primary": false,
+      "sites_added": 29,
+      "sites_skipped": 0,
+      "spider": "http://47.120.41.246:8025/vip/jar/tan.php"
+    },
+    {
+      "id": "back-012",
+      "name": "二月红接口",
+      "group": "back",
+      "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+      "primary": false,
+      "sites_added": 28,
+      "sites_skipped": 0,
+      "spider": "http://47.120.41.246:8025/vip/jar/tan.php"
+    },
+    {
       "id": "back-024",
       "name": "荐片",
       "group": "back",
@@ -76,16 +106,6 @@
       "sites_added": 7,
       "sites_skipped": 21,
       "spider": "https://tv.203511.xyz/jar/custom_spider.jar"
-    },
-    {
-      "id": "back-012",
-      "name": "二月红接口",
-      "group": "back",
-      "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-      "primary": false,
-      "sites_added": 27,
-      "sites_skipped": 0,
-      "spider": "http://47.120.41.246:8025/vip/jar/tan.php"
     },
     {
       "id": "back-025",
