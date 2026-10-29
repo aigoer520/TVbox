@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T03:41:18Z",
+  "generated_at": "2026-10-29T12:10:28Z",
   "homepage": "https://www.tvbox.org/",
   "repo": "https://github.com/TVboxorg/TVbox",
   "primary": "王二小",
   "sites": 160,
-  "parses": 46,
+  "parses": 38,
   "lives": 23,
   "sources": [
     {
@@ -18,14 +18,14 @@
       "spider": "http://oss4liview.moji.com/thd_file/2026/10/26/837a77b77fc98aba6b97856944e94d7c.jpg"
     },
     {
-      "id": "pref-006",
-      "name": "俊哥",
+      "id": "pref-007",
+      "name": "小盒子",
       "group": "pref",
-      "url": "http://home.jundie.top:81/top98.json",
+      "url": "http://xhztv.top/xhz",
       "primary": false,
-      "sites_added": 22,
-      "sites_skipped": 2,
-      "spider": "http://home.jundie.top:81/jar/top98_1.jar"
+      "sites_added": 50,
+      "sites_skipped": 4,
+      "spider": "http://xhztv.top/xhz/Yoursmile.jar"
     },
     {
       "id": "back-023",
@@ -83,7 +83,7 @@
       "group": "back",
       "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
       "primary": false,
-      "sites_added": 24,
+      "sites_added": 27,
       "sites_skipped": 0,
       "spider": "http://47.120.41.246:8025/vip/jar/tan.php"
     },
