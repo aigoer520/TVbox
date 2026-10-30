@@ -1,5 +1,5 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2026/10/26/837a77b77fc98aba6b97856944e94d7c.jpg;md5;722d5c1bdcb1b38fc62874941e060d6b",
+  "spider": "http://oss4liview.moji.com/thd_file/2026/10/31/272e922132480799981a031067b6d722.jpg;md5;8605fb93b9d2ba66e702fdbfcc496159",
   "wallpaper": "https://www.loliapi.com/acg/",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -432,6 +432,14 @@
       "changeable": 0
     },
     {
+      "key": "AnimeAiGongHeGuo",
+      "name": "🤡共和┃动漫🤡",
+      "type": 3,
+      "api": "csp_AnimeAiGongHeGuoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
       "key": "AnimeXiFan",
       "name": "🤡稀饭┃动漫🤡",
       "type": 3,
@@ -719,14 +727,6 @@
       "name": "🎠九七┃综合🎠",
       "type": 3,
       "api": "csp_SoAiPanSooGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "SoAiQuPanShe",
-      "name": "🎠趣搜┃百度🎠",
-      "type": 3,
-      "api": "csp_SoAiQuPanSheGuard",
       "searchable": 1,
       "changeable": 0
     },
@@ -1278,24 +1278,6 @@
       ]
     },
     {
-      "key": "tv_back-026_feifan",
-      "name": "🍀┃非凡┃资源·1号VIP源",
-      "type": 1,
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "韩国剧",
-        "欧美剧",
-        "台湾剧",
-        "战争片",
-        "国产剧",
-        "大陆综艺"
-      ],
-      "hide": 1
-    },
-    {
       "key": "tv_back-023_csp_小胡",
       "name": "👒┃小胡┃资源┃·ok线路1",
       "type": 1,
@@ -1523,6 +1505,24 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "tv_back-012_feifan",
+      "name": "🍀┃非凡┃资源·二月红接口",
+      "type": 1,
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "韩国剧",
+        "欧美剧",
+        "台湾剧",
+        "战争片",
+        "国产剧",
+        "大陆综艺"
+      ],
+      "hide": 1
     },
     {
       "key": "tv_back-023_taopian",
@@ -1916,55 +1916,64 @@
       "jar": "http://home.jundie.top:81/jar/top98_1.jar"
     },
     {
-      "key": "tv_back-026_JianSou",
-      "name": "💖┃简搜┃4K💖·1号VIP源",
+      "key": "tv_back-017_种子",
+      "name": "种子 • 4K·潇洒",
       "type": 3,
-      "api": "csp_JianSou",
+      "api": "csp_SeedHub",
       "searchable": 1,
-      "filterable": 0,
+      "quickSearch": 0,
       "ext": {
-        "site": "http://118.89.172.248:8000",
-        "type": 0,
-        "name": " 简搜"
-      },
-      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
-    },
-    {
-      "key": "tv_back-026_ZhiZhenPanCms",
-      "name": "💖┃至臻┃4K💖·1号VIP源",
-      "type": 3,
-      "api": "csp_PanCms",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "{\"site\":[\"http://118.89.172.248:22776\"],\"name\":\"网盘CMS\"}",
-      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
-    },
-    {
-      "key": "tv_back-026_Star2",
-      "name": "💖┃剧透┃4K💖·1号VIP源",
-      "type": 3,
-      "api": "csp_Star2",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": "{\"site\":[\"https://1.star2.cn\"],\"name\":\"剧透社\"}",
-      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
-    },
-    {
-      "key": "tv_back-026_AppRJ",
-      "name": "🍂┃热播┃高清·1号VIP源",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "url": "http://v.rbotv.cn",
-        "block": [
-          "线路二(点击切换)",
-          "CO4K"
+        "site": [
+          "https://sidhub.cc",
+          "https://seeduck.cc",
+          "https://hubdog.cc",
+          "http://104.243.25.80"
         ]
       },
-      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+      "timeout": 60,
+      "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
+    },
+    {
+      "key": "tv_back-017_即刻",
+      "name": "即刻 • 4K·潇洒",
+      "type": 3,
+      "api": "csp_Jike",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 60,
+      "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
+    },
+    {
+      "key": "tv_back-017_双星",
+      "name": "双星 • 4K·潇洒",
+      "type": 3,
+      "api": "csp_ShuangXing",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 60,
+      "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
+    },
+    {
+      "key": "tv_back-017_卡卡",
+      "name": "卡卡 • 4K·潇洒",
+      "type": 3,
+      "api": "csp_KKPan",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 60,
+      "jar": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
     }
   ],
   "parses": [
@@ -3058,10 +3067,6 @@
       "name": "16万•MV",
       "type": 0,
       "url": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
-    },
-    {
-      "name": "直播源",
-      "type": 0
     }
   ],
   "homepage": "https://www.tvbox.org/",
