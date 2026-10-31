@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:36:01Z",
+  "generated_at": "2026-10-31T16:42:12Z",
   "homepage": "https://www.tvbox.org/",
   "repo": "https://github.com/TVboxorg/TVbox",
   "primary": "王二小",
@@ -85,7 +85,7 @@
       "primary": false,
       "sites_added": 28,
       "sites_skipped": 0,
-      "spider": "http://47.120.41.246:8025/vip/jar/tan.php"
+      "spider": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
       "id": "back-024",
