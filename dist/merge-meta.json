@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T00:22:55Z",
+  "generated_at": "2026-11-03T13:30:09Z",
   "homepage": "https://www.tvbox.org/",
   "repo": "https://github.com/TVboxorg/TVbox",
   "primary": "王二小",
   "sites": 160,
   "parses": 49,
-  "lives": 23,
+  "lives": 24,
   "sources": [
     {
       "id": "pref-001",
@@ -13,9 +13,9 @@
       "group": "pref",
       "url": "https://9280.kstore.vip/newwex.json",
       "primary": true,
-      "sites_added": 99,
+      "sites_added": 98,
       "sites_skipped": 0,
-      "spider": "http://oss4liview.moji.com/thd_file/2026/11/02/c9050ddf2e4eb65bc925f27924695099.jpg"
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/03/b1838e86a7164d1031cb5940af34ad7c.jpg"
     },
     {
       "id": "pref-007",
@@ -53,7 +53,7 @@
       "group": "back",
       "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
       "primary": false,
-      "sites_added": 108,
+      "sites_added": 109,
       "sites_skipped": 2,
       "spider": "https://qist.wyfc.qzz.io/xiaosa/spider.jar"
     },
@@ -63,9 +63,9 @@
       "group": "back",
       "url": "https://9280.kstore.space/newwex.json",
       "primary": false,
-      "sites_added": 99,
+      "sites_added": 98,
       "sites_skipped": 0,
-      "spider": "http://oss4liview.moji.com/thd_file/2026/11/02/c9050ddf2e4eb65bc925f27924695099.jpg"
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/03/b1838e86a7164d1031cb5940af34ad7c.jpg"
     },
     {
       "id": "back-016",
@@ -96,6 +96,26 @@
       "sites_added": 7,
       "sites_skipped": 21,
       "spider": "https://tv.203511.xyz/jar/custom_spider.jar"
+    },
+    {
+      "id": "back-026",
+      "name": "1号VIP源",
+      "group": "back",
+      "url": "https://700sjro44343.vicp.fun/vip/vip/tv.json",
+      "primary": false,
+      "sites_added": 28,
+      "sites_skipped": 0,
+      "spider": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "id": "back-025",
+      "name": "my interface",
+      "group": "back",
+      "url": "http://124.223.214.31:8/api.json",
+      "primary": false,
+      "sites_added": 1,
+      "sites_skipped": 1,
+      "spider": "https://gitee.com/starlinkapi/jar/raw/master/jar/starlink.jar"
     }
   ],
   "subscribe": "https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/official.json",
